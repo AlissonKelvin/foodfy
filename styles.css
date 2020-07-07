@@ -1,0 +1,107 @@
+:root {
+    --width:940px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    max-width: var(--width);
+    display: flex;
+    margin: 0 auto;
+    padding: 32px 0;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 250ms;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid black ;
+    font-weight: bold;
+}
+
+#minichefe {
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    max-width: var(--width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    box-shadow: black 1px 1px  10px -5px;
+}
+
+#minichefe .content {
+    max-width: 316px;
+}
+
+#minichefe .content h1 {
+    font-size: 32px;
+}
+
+#minichefe .content p {
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 28px;
+}
+
+/*MOST ACESSED*/
+
+#mostAcessed h2{
+    padding: 32px 0;
+   
+    }
+
+#mostAcessed{
+    max-width: var(--width);
+    margin: 0 auto;
+}
+
+#mostAcessed .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap: 20px;
+}
+
+#mostAcessed .recipe img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.recipe p {
+    margin-top:3px;
+    color: #777777;
+}
+
+footer{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 32px 0;
+    margin-top: 32px;
+    color: #999999;
+}
+
+
